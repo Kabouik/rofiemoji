@@ -56,10 +56,10 @@ Users who already configured rofi to their own taste before may prefer to skip i
 
 However, for users new to rofi, applying the recommended configuration (installation step 2) should facilitate the setup by configuring everything as in the screenshots. This will move/rename the supplied `config.example` file and the `sidetab-adapta.rasi` theme (taken from the [davatorium/**rofi-themes**](https://raw.githubusercontent.com/davatorium/rofi-themes/master/User%20Themes/sidetab-adapta.rasi) collection) into the adequate folders.
 
-| Make sure you first review `config.example` to check if my custom changes will work on your machine. While most of them should be system-agnostic, some settings are tailored to my own use and may not work on all systems. |
+| Make sure you review `config.example` to check if my custom changes will work on your machine. While most of them should be system-agnostic, some settings are tailored to my own use and may not work on all systems. |
 | --- |
 
-For instance, the settings in `config.example` makes rofi work with gnome-terminal, but default rofi settings might work better when using other terminals. In the latter case, it is best to edit `/.config/rofiemoji-rofiunicode/config.example` before installation step 2 (or `~/.config/rofi/config` after installation step 2) to update it according to the specific requirements of your system. Alternatively, the following lines can be disabled by prepending `!` to restore rofi defaults:
+For instance, the settings in `config.example` make rofi work with gnome-terminal, but default rofi settings might work better when using other terminals. In the latter case, it is best to edit `/.config/rofiemoji-rofiunicode/config.example` before installation step 2 (or `~/.config/rofi/config` after installation step 2) to alter it according to the specific requirements of your system. Alternatively, rofi defaults can be restored by prepending `!` to the following lines to disable them:
 
 Before:
 ```sh
