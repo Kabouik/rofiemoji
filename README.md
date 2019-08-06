@@ -1,6 +1,6 @@
 # rofiemoji-rofiunicode
 
-Inspired by [fdw/rofimoji](https://github.com/fdw/rofimoji) and its script version by [nkoehring/rofiemoji](https://github.com/nkoehring/rofiemoji), **rofiemoji-rofiunicode** is the combination of two rofi scripts to search emojis or unicode characters directly in rofi, instead of a separate rofi instance like the original [rofimoji by fdw](https://github.com/fdw/rofimoji). Unicode and Emojis modis show up as separate tabs when rofi is invoked:
+Inspired by [fdw/rofimoji](https://github.com/fdw/rofimoji) and its script version by [nkoehring/rofiemoji](https://github.com/nkoehring/rofiemoji), **rofiemoji-rofiunicode** is the combination of two rofi scripts to search emojis or unicode characters directly in rofi, instead of a separate rofi instance like the original [rofimoji by fdw](https://github.com/fdw/rofimoji). Unicode characters and emojis show up as separate tabs when rofi is invoked:
 
 ![rofiemoji-rofiunicode1](.//rofiemoji-rofiunicode1.png)
 
@@ -10,7 +10,7 @@ Inspired by [fdw/rofimoji](https://github.com/fdw/rofimoji) and its script versi
 
 ```bash
 cd ~/.config
-git clone https://github.com/Kabouik/rofiemoji.git
+git clone https://github.com/Kabouik/rofiemoji-rofiunicode.git
 ```
 
 The list of unicode characters was originally created by [/u/fe80c0ffee](https://www.reddit.com/r/unixporn/comments/7zqkov/oc_i_mad_a_rofi_emoji_picker_and_i_feel_bad_about/duqls53?utm_source=share&utm_medium=web2x).
@@ -21,7 +21,8 @@ The list of unicode characters was originally created by [/u/fe80c0ffee](https:/
  * `xsel` to copy the selection to the clipboard. You should find it in your package manager.
 
 ## Usage example
-Add a custom keybinding in your system for the following command:
+Add a custom keybinding using your window-manager settings for the following command:
+
 ```sh
 rofi -show windowcd -theme-str '#window{width: 30%;}' # See the rofi documentation for details
 ```
@@ -32,13 +33,13 @@ For rofi to look like the above screenshots, use the supplied `config` file and 
 
 ```bash
 mv $HOME/.config/rofi/config $HOME/.config/rofi/config.back
-cp $HOME/.config/rofiemoji/config.example $HOME/.config/rofi/config
-cp $HOME/.config/rofiemoji/sidetab-adapta.rasi $HOME/.local/share/rofi/themes/
+cp $HOME/.config/rofiemoji-rofiunicode/config.example $HOME/.config/rofi/config
+cp $HOME/.config/rofiemoji-rofiunicode/sidetab-adapta.rasi $HOME/.local/share/rofi/themes/
 ```
-The `config` file is customized to my own system and preferences. It is assumed that rofi and rofiemoji folders are located in `~/.config/`. Make sure you reviewed the few uncommented lines to check whether my custom preferences in `config` will work on your system. For instance, this `config` file is adapted to `gnome-terminal`, while default values might work best with other terminals.
+The `config` file is customized to my own system and preferences. It is assumed that rofi and rofiemoji-rofiunicode folders are located in `~/.config/`. Make sure you reviewed the few uncommented lines to check whether my custom preferences in `config` will work on your system. For instance, this `config` file is adapted to `gnome-terminal`, while default values might work best with other terminals.
 
 ## Alternative
 
-An alternative based on [rofimoji by fdw](https://github.com/fdw/rofimoji) instead of rofi-scripts, but still with the addition of unicode characters from [/u/fe80c0ffee](https://www.reddit.com/r/unixporn/comments/7zqkov/oc_i_mad_a_rofi_emoji_picker_and_i_feel_bad_about/duqls53?utm_source=share&utm_medium=web2x) is available here: [Kabouik/rofimoji](https://github.com/Kabouik/rofimoji). It allows multiple selection of emojis or unicode characters, but the window customisation is not as flexible.
+An alternative based on [rofimoji by fdw](https://github.com/fdw/rofimoji) instead of rofi-scripts, but still with the addition of unicode characters from [/u/fe80c0ffee](https://www.reddit.com/r/unixporn/comments/7zqkov/oc_i_mad_a_rofi_emoji_picker_and_i_feel_bad_about/duqls53?utm_source=share&utm_medium=web2x), is [Kabouik/rofimoji](https://github.com/Kabouik/rofimoji). It allows multiple selection of emojis or unicode characters, as well as direct input without the clipboard step, but the window customisation is not as flexible.
 
 ![Kabouik/rofimoji](https://reho.st/medium/https://github.com/Kabouik/rofimoji/raw/master/screenshot-fork.png?raw=true)
