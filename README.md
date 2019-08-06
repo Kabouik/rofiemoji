@@ -56,7 +56,7 @@ Users who already configured rofi to their own taste before may prefer to skip i
 
 However, for users new to rofi, applying the recommended configuration (installation step 2) should facilitate the setup by configuring everything as in the screenshots. This will move/rename the supplied `config.example` file and the `sidetab-adapta.rasi` theme (originally taken from the [davatorium/**rofi-themes**](https://raw.githubusercontent.com/davatorium/rofi-themes/master/User%20Themes/sidetab-adapta.rasi) collection) into the adequate folders.
 
-| Make sure you review `config.example` to check if custom changes will work on your machine. While most of them should be system-agnostic, some settings are tailored to my own use or preferences and may not work on all systems. |
+| Make sure you review `config.example` to check if custom changes will work on your machine. While most of them should be system-agnostic, some settings are tailored to my own use and may not work on all systems. |
 | --- |
 
 For instance, the supplied `config.example` file makes rofi work with gnome-terminal, but default rofi values might work better when using other terminals. In the latter case, it is best to edit `config.example` before installation step 2 (or `~/.config/rofi/config` after step 2) to update it according to your specific system requirements, or simply to disable each of the following lines by prepending them with `!`:
