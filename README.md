@@ -35,7 +35,7 @@ mv $HOME/.config/rofi/config $HOME/.config/rofi/config.back
 cp $HOME/.config/rofiemoji/config.example $HOME/.config/rofi/config
 cp $HOME/.config/rofiemoji/sidetab-adapta.rasi $HOME/.local/share/rofi/themes/
 ```
-The `config` file is customized to my own system and preferences. It is assumed that rofi and rofiemoji folders are located in `~/.config/`. Make sure you reviewed the few uncommented lines to check whether my custom preferences will work on your system. For instance, this `config` file is adapted to `gnome-terminal`.
+The `config` file is customized to my own system and preferences. It is assumed that rofi and rofiemoji folders are located in `~/.config/`. Make sure you reviewed the few uncommented lines to check whether my custom preferences in `config` will work on your system. For instance, this `config` file is adapted to `gnome-terminal`, while default values might work best with other terminals.
 
 ## Alternative
 
