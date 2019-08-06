@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DIR="$HOME/.config/rofiemoji"
+DIR="$HOME/.config/rofiemoji-rofiunicode"
 URL="https://github.com/Kabouik/rofiemoji/raw/master/unicode.txt"
 FILE="$DIR/unicode.txt"
 # VER='11.0'
