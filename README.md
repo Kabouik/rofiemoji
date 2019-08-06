@@ -1,6 +1,6 @@
 # rofiemoji-rofiunicode
 
-Inspired by [fdw/rofimoji](https://github.com/fdw/rofimoji) and its script version by [nkoehring/rofiemoji](https://github.com/nkoehring/rofiemoji), **rofiemoji-rofiunicode** is the combination of two rofi scripts to search emojis or unicode characters directly in rofi, instead of a separate rofi instance like the original [rofimoji by fdw](https://github.com/fdw/rofimoji). Unicode characters and emojis show up as separate tabs when rofi is invoked:
+Inspired by [fdw/rofimoji](https://github.com/fdw/rofimoji) and its script version by [nkoehring/rofiemoji](https://github.com/nkoehring/rofiemoji), **rofiemoji-rofiunicode** is the combination of two rofi scripts to search emojis or unicode characters directly in rofi. Unicode characters and emojis show up as separate tabs when rofi is invoked:
 
 ![rofiemoji-rofiunicode1](.//rofiemoji-rofiunicode1.png)
 
