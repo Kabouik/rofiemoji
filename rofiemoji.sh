@@ -3,7 +3,7 @@
 DIR="$HOME/.config/rofiemoji-rofiunicode"
 # URL="https://github.com/Kabouik/rofiemoji/raw/master/unicode.txt"
 # FILE="$DIR/unicode.txt"
-VER='11.0'
+VER='12.0'
 URL="https://www.unicode.org/Public/emoji/${VER}/emoji-test.txt"
 FILE="$DIR/emojis.txt"
 
