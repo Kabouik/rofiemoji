@@ -2,9 +2,9 @@
 
 Inspired by [fdw/rofimoji](https://github.com/fdw/rofimoji) and its script version [nkoehring/rofiemoji](https://github.com/nkoehring/rofiemoji), **rofiemoji-rofiunicode** is a fork of the latter that combines two scripts to search and copy emojis or unicode characters directly from [davatorium/rofi](https://github.com/davatorium/rofi). Unicode characters and emojis show up as separate tabs when rofi is invoked:
 
-![rofiemoji-rofiunicode1](.//rofiemoji-rofiunicode1.png)
+![rofiemoji-rofiunicode1](https://github.com/Kabouik/rofiemoji-rofiunicode/blob/master/rofiemoji-rofiunicode1.png?raw=true)
 
-![rofiemoji-rofiunicode2](.//rofiemoji-rofiunicode2.png)
+![rofiemoji-rofiunicode2](https://github.com/Kabouik/rofiemoji-rofiunicode/blob/master/rofiemoji-rofiunicode2.png?raw=true)
 
 `rofiemoji.sh` and `rofiunicode.sh` will try to download the lists of emoji and unicode characters when used the first time, unless the full repository has already been cloned using:
 
