@@ -18,7 +18,7 @@ rofi.modi: windowcd,drun,run,ssh,unicode:~/.config/rofiemoji-rofiunicode/rofiuni
 rofi.columns: 2
 
 ! "Font to use" Set from: Default
-rofi.font: Fira Mono 11
+rofi.font: Fira Code 11
 
 ! "Border width" Set from: Default
 rofi.bw: 0
