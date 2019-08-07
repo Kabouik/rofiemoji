@@ -1,6 +1,6 @@
 /*
- * sidetab-adapta theme,
- * based on sidetab theme by deadguy.
+ * sidetab-adapta + slight transparency changes (kabouik),
+ * based on sidetab theme by deadguy and sidetab-adapta.
  *
  * This theme has been dedicated to the public domain.
  *
@@ -12,7 +12,7 @@ configuration {
 }
 
 * {
-        background-color:           #222d32;
+        background-color:           argb:aa222222; /*argb:aa292D32*/
         text-color:                 #ffffff;
 
         accent-color:               #00bcd4;
@@ -24,7 +24,7 @@ configuration {
         selected-normal-foreground: @window-color;
         normal-foreground:          @text-color;
         selected-normal-background: @hover-color;
-        normal-background:          @background-color;
+        normal-background:          transparent;
 
         selected-urgent-foreground: @background-color;
         urgent-foreground:          @text-color;
@@ -50,7 +50,8 @@ configuration {
 
 entry {
         expand: false;
-        margin: 8px;
+        padding: 8px;
+        background-color: @background-color;
 }
 
 element {

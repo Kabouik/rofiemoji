@@ -30,7 +30,7 @@ The two underlying scripts, `rofiemoji.sh` and `rofiunicode.sh`, will try to dow
  mv $HOME/.config/rofi/config $HOME/.config/rofi/config.back # Back up previous rofi configuration, if any
  cp $HOME/.config/rofiemoji-rofiunicode/config.example $HOME/.config/rofi/config # Apply the supplied configuration
  mkdir -p $HOME/.local/share/rofi/themes
- cp $HOME/.config/rofiemoji-rofiunicode/sidetab-adapta.rasi $HOME/.local/share/rofi/themes/ # Provide sidetab-adapta.rasi theme
+ cp $HOME/.config/rofiemoji-rofiunicode/sidetab-adapta.rasi $HOME/.local/share/rofi/themes/ # Provide customized sidetab-adapta.rasi theme
  ```
 
 3. **If step 2 was completed**, add a custom keybinding using your window-manager settings for the following command:
@@ -54,7 +54,7 @@ The two underlying scripts, `rofiemoji.sh` and `rofiunicode.sh`, will try to dow
 ## Recommended configuration
 Users who already configured rofi to their own taste before may prefer to skip installation step 2 to keep their custom changes.
 
-However, for users new to rofi, applying the recommended configuration (installation step 2) should facilitate the setup by configuring everything as in the screenshots. This will move/rename the supplied `config.example` file and the `sidetab-adapta.rasi` theme (taken from the [davatorium/**rofi-themes**](https://raw.githubusercontent.com/davatorium/rofi-themes/master/User%20Themes/sidetab-adapta.rasi) collection) into the adequate folders.
+However, for users new to rofi, applying the recommended configuration (installation step 2) should facilitate the setup by configuring everything as in the screenshots. This will move/rename the supplied `config.example` file and a transparent `sidetab-adapta.rasi` theme (original without transparency taken from the [davatorium/**rofi-themes**](https://raw.githubusercontent.com/davatorium/rofi-themes/master/User%20Themes/sidetab-adapta.rasi) collection) into the adequate folders.
 
 | Make sure you review `config.example` to check if my custom changes will work on your machine. While most of them should be system-agnostic, some settings are tailored to my own use and may not work on all systems. |
 | --- |
