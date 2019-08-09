@@ -4,9 +4,12 @@ Inspired by [fdw/**rofimoji**](https://github.com/fdw/rofimoji) and forked from 
 
 It comes with an example configuration file and a theme that should make it ready to use, even for those who never used rofi before. When using the recommended procedure, unicode and emoji lists show up as separate tabs in rofi, in addition to rofi's window, drun, run and ssh modis:
 
-![rofiemoji-rofiunicode1](https://github.com/Kabouik/rofiemoji-rofiunicode/blob/master/rofiemoji-rofiunicode1.png?raw=true)
+![Unicode tab](./unicode.png?raw=true)
 
-![rofiemoji-rofiunicode2](https://github.com/Kabouik/rofiemoji-rofiunicode/blob/master/rofiemoji-rofiunicode2.png?raw=true)
+![Emoji tab](./emoji.png?raw=true)
+
+![drun tab](./drun.png?raw=true)
+
 
 The two underlying scripts, `rofiemoji.sh` and `rofiunicode.sh`, will try to download the lists of emoji and unicode characters if they are missing, but this should already be taken care of when cloning this repository. The list of emojis is fetched from www.unicode.org while the unicode list was created by [/u/fe80c0ffee](https://www.reddit.com/r/unixporn/comments/7zqkov/oc_i_mad_a_rofi_emoji_picker_and_i_feel_bad_about/duqls53?utm_source=share&utm_medium=web2x).
 
@@ -14,7 +17,7 @@ The two underlying scripts, `rofiemoji.sh` and `rofiunicode.sh`, will try to dow
 
  * `rofi` from [davatorium/**rofi**](https://github.com/davatorium/rofi) or from your package manager.
  * `xsel` to copy the selection to the clipboard. You should find it in your package manager.
- * An emoji capable font, *e.g.*, [Noto Emoji](https://www.google.com/get/noto/#emoji-zsye) or [Noto Color Emoji](https://www.google.com/get/noto/#emoji-zsye-color).
+ * An emoji capable font, *e.g.*, [Noto Emoji](https://www.google.com/get/noto/#emoji-zsye) or [Noto Color Emoji](https://www.google.com/get/noto/#emoji-zsye-color), and [Fira Code](https://github.com/tonsky/FiraCode) for the theme.
 
 ## Installation
 
