@@ -1,14 +1,14 @@
-# rofiemoji-rofiunicode
+# ⮆ [Project migrated to teknik.io](https://git.teknik.io/matf/rofiemoji-rofiunicode) ⮄
 
 Inspired by [fdw/**rofimoji**](https://github.com/fdw/rofimoji) and forked from its script version [nkoehring/**rofiemoji**](https://github.com/nkoehring/rofiemoji), **rofiemoji-rofiunicode** is a character-picker that allows searching and copying emojis and over 25'000 unicode characters directly from [davatorium/**rofi**](https://github.com/davatorium/rofi).
 
-It comes with an example configuration file and a theme that should make it ready to use, even for those who never used rofi before. When using the recommended procedure, unicode and emoji lists show up as separate tabs in rofi, in addition to rofi's window, drun, run and ssh modis:
+It comes with an example configuration file and a theme that should make it ready to use, even for users who never configured rofi before. When using the recommended procedure, unicode and emoji lists show up as separate tabs in rofi, in addition to rofi's window, drun, run and ssh modis:
 
-![Unicode tab](./unicode.png?raw=true)
+![Unicode tab](https://git.teknik.io/matf/rofiemoji-rofiunicode/media/branch/master/screenshots/unicode.png?raw=true)
 
-![Emoji tab](./emoji.png?raw=true)
+![Emoji tab](https://git.teknik.io/matf/rofiemoji-rofiunicode/media/branch/master/screenshots/emoji.png?raw=true)
 
-![drun tab](./drun.png?raw=true)
+![drun tab](https://git.teknik.io/matf/rofiemoji-rofiunicode/media/branch/master/screenshots/drun.png?raw=true)
 
 
 The two underlying scripts, `rofiemoji.sh` and `rofiunicode.sh`, will try to download the lists of emoji and unicode characters if they are missing, but this should already be taken care of when cloning this repository. The list of emojis is fetched from www.unicode.org while the unicode list was created by [/u/fe80c0ffee](https://www.reddit.com/r/unixporn/comments/7zqkov/oc_i_mad_a_rofi_emoji_picker_and_i_feel_bad_about/duqls53?utm_source=share&utm_medium=web2x).
